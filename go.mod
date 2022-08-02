@@ -18,16 +18,18 @@ require (
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+	golang.org/x/sys v0.0.0-20220731174439-a90be440212d // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8
 	k8s.io/api v0.25.3
-	k8s.io/apiextensions-apiserver v0.25.3
+	k8s.io/apiextensions-apiserver v0.19.6
 	k8s.io/apimachinery v0.25.3
 	k8s.io/client-go v0.25.3
-	k8s.io/kubectl v0.25.3
-	k8s.io/kubernetes v1.25.3
-	k8s.io/utils v0.0.0-20221012122500-cfd413dd9e85
+	k8s.io/kubectl v0.19.6
+	k8s.io/kubernetes v1.19.6
 	volcano.sh/volcano v1.1.0
 )
+
+require k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 
 require (
 	cloud.google.com/go v0.97.0 // indirect
@@ -85,7 +87,6 @@ require (
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
 	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
